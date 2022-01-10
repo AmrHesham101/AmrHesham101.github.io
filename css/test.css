@@ -1,0 +1,111 @@
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: darkslategrey;
+}
+
+body {
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+
+    min-height: 40rem;
+    background-image: url(../imgs/business-2.jpg);
+    background-size: cover;
+
+}
+
+nav {
+    font-weight: 700;
+}
+nav .btn
+{
+    background-color: #4caf50;
+}
+
+.main {
+
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    min-height: 40rem;
+}
+
+.main-1 p
+ {
+    line-height: 1.3em;
+    font-weight: 700;
+    font-size: 20px;
+}
+.main-1 h1
+{
+    line-height: 1.3em;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+
+
+.main-1 button {
+    border: none;
+    background-color: #4caf50;
+}
+.features
+{
+    min-height: 30rem;
+}
+.features i{
+    color:#4caf50;
+}
+#Services
+{
+    min-height: 40rem;
+}
+#Services h6
+{
+    font-size: 19px;
+    font-weight: 400;
+    color: #303030;
+    line-height: 1.38em;
+    font-family: 'Open Sans',arial;
+}
+#Services p 
+{
+    font-family: 'Open Sans',arial;
+    font-weight: 400;
+    line-height: 1.86em;
+    font-size: 16px;
+    opacity: 1;
+    visibility: visible;
+    color: #888;
+}
+#Secret
+{
+    min-height: 40rem;
+}
+
+#Secret .btn
+{
+    background-color: #4caf50;
+}
+.our-secret p
+{
+    line-height: 2rem;
+}
+.our-secret h3
+{
+    line-height: 2rem;
+}
+.our-secret li
+{
+    line-height: 2rem;
+}
+.image-container img
+{
+ 
+    transition: transform  2s ease-in-out;
+}
+.image-container:hover img
+{
+    transform: scale(1.3);
+}
